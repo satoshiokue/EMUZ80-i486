@@ -2,6 +2,14 @@
 
 電脳伝説さん(@vintagechips)のEMUZ80が出力するZ80 CPU信号をメザニンボードで組み替え、5V仕様のi486を動作させることができます。  
 
+FoxTechさんがYoutubeで発表された"486 Breadboard Computer"のDynamic Bus sizing制御手法に感銘を受けて製作しました。  
+
+https://youtu.be/wSiDSdHS2QQ?si=lTsH4jV_w0vX-F2U
+
+HACKERDAY
+IT’S A 486 COMPUTER, ON A BREADBOARD  
+https://hackaday.com/tag/i486/  
+
 ![MEZi486](https://github.com/satoshiokue/EMUZ80-i486/blob/main/MEZi486.jpg)
  
 ソースコードは電脳伝説さんのEMUZ80用main.cを元に改変してGPLライセンスに基づいて公開するものです。
