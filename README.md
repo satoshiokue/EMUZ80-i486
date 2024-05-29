@@ -42,16 +42,25 @@ UART  0x0000   Data REGISTER
 ## PICプログラムの書き込み
 EMUZ80技術資料8ページにしたがってPICに適合するemui486_Qxx.hexファイルを書き込んでください。  
 
+emui486_Q43.hex ： PIC18F47Q43用  
+emui486_Q8x.hex ： PIC18F47Q83/84用 　
+
 またはArduino UNOを用いてPICを書き込みます。  
 https://github.com/satoshiokue/Arduino-PIC-Programmer
 
 ## ファームウェア
 8080/Z80用Nascon BASICのソースファイルを8088/8086用にコンバートして作成した Nascom BASICとUniversal Monitorを搭載しました。  
 
-emui486_Q43.hex  
-emui486_Q8x.hex　　
+Vectorセットアップ処理はSBCV20データパックのV20BASIC.ASMを参考にしました。  
 
+スイッチサイエンス - SBCV20 ルーズキット  
+https://www.switch-science.com/products/6902/
+
+Nascom BASIC 8086  
 https://github.com/satoshiokue/8086_NASCOM_BASIC  
+
+Universal Monitor  
+https://electrelic.com/electrelic/node/1317
 
 ```
 MEZi486 2.909MHz
